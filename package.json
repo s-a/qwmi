@@ -1,0 +1,30 @@
+{
+  "name": "qwmi",
+  "version": "1.0.0",
+  "description": "Query Windows Management Instrumentation from shell and output JSON data",
+  "main": "lib/index.js",
+  "bin": {
+    "qwmi": "lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/qwmi.git"
+  },
+  "keywords": [
+    "WMI",
+    "shell"
+  ],
+  "author": "s-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/qwmi/issues"
+  },
+  "homepage": "https://github.com/s-a/qwmi#readme",
+  "dependencies": {
+    "n-cli": "^1.2.9",
+    "node-wmi": "0.0.4"
+  }
+}

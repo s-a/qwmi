@@ -1,0 +1,17 @@
+{
+	"query" : {	
+		"host" : "localhost",
+		"namespace" : "root\\CIMV2",
+		"class" : "Win32_LogicalDisk",
+		"properties" : ["SystemName", "DeviceID", "ProviderName", "FreeSpace"],
+		"username" : null,
+		"password" : null,
+		"where" : "DriveType = 3 and FreeSpace <= 319757856768"
+	},
+	"message" : "",
+	"response" : {
+		"color" : "FF0000",
+		"author" : {"name" : "Unicorn"},
+		"title" : "Win32_LogicalDisk"
+	}
+}
