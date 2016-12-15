@@ -1,6 +1,6 @@
 {
   "name": "qwmi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Query Windows Management Instrumentation from shell and output JSON data",
   "main": "lib/index.js",
   "bin": {
